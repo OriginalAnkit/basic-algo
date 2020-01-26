@@ -2,7 +2,9 @@
 import './style.css';
 // import "./Sorting/selectionSort"
 // import "./Sorting/insertionSort.js"
-import "./Sorting/bubbleSort.js"
+// import "./Sorting/bubbleSort.js"
+import "./Sorting/mergeSort.js"
+
 
 
 
