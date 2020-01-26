@@ -1,5 +1,4 @@
 function merge(arr1,arr2){
-  console.log(arr1,arr2)
   let i=0,j=0,result=[];
   while(i<arr1.length&&j<arr2.length){
     if(arr1[i]<arr2[j]){
@@ -14,7 +13,7 @@ function merge(arr1,arr2){
     result.push(arr2[j])
     j++;
   }
-  while(i<arri.length){
+  while(i<arr1.length){
     result.push(arr1[i])
     i++;
   }
@@ -30,4 +29,4 @@ function mergeSort(arr){
 
 }
 
-mergeSort([4,1,7,2,9,5])
+console.log(mergeSort([17,4,1,7,2,9,5]))
